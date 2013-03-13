@@ -1,21 +1,16 @@
-# Template Puppet Module for Boxen
+# Backblaze Puppet Module for Boxen
 
-An example of how we write Puppet modules for Boxen. Replace this
-paragraph with a short explanation of what the heck makes your module
-useful.
+Install [Backblaze](http://www.backblaze.com/), a remote backup service.
 
 ## Usage
 
 ```puppet
-boxen::example { 'best example ever':
-  salutation => 'fam'
-}
+include backblaze
 ```
 
 ## Required Puppet Modules
 
 * `boxen`
-* `anything-else`
 
 ## Development
 
